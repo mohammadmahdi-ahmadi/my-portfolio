@@ -34,14 +34,6 @@
       "image": "/screenshots/project-3.png",
       "alt": "travel packing project img",
       "liveUrl": "https://example.com/"
-    },
-    {
-      "id": 1792922854687,
-      "title": "sport planner",
-      "description": "ssssssssssssssssss",
-      "image": "/uploads/59bbcbc6e89a85a7.png",
-      "alt": "shopping basket img",
-      "liveUrl": "https://example.com/"
     }
   ],
   "skills": [
@@ -74,27 +66,7 @@
       "id": 6,
       "name": "Git & GitHub",
       "detail": "Commit, push, branches, README files"
-    },
-    {
-      "id": 1792922794069,
-      "name": "C$",
-      "detail": "seeeeeeeeeeeeeee"
     }
   ],
-  "messages": [
-    {
-      "id": 1792916561040,
-      "name": "Mahdi Ahmadi",
-      "email": "mahdiahmadi.20m26@gmail.com",
-      "message": "hello what is your name?",
-      "date": "2026-10-25T08:22:41.040Z"
-    },
-    {
-      "id": 1792921912717,
-      "name": "Mahdi Ahmadi",
-      "email": "mahdiahmadi.20m26@gmail.com",
-      "message": "iaisdjflsdjfn",
-      "date": "2026-10-25T09:51:52.717Z"
-    }
-  ]
+  "messages": []
 }
