@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* فونت اصلی سایت (اگر لود نشد، فونت پیش‌فرض سیستم استفاده می‌شود) */
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* جلوی پنهان شدن عنوان سکشن زیر نوار بالا را می‌گیرد */
+section {
+  scroll-margin-top: 5rem;
+}
+
+/* حلقه‌ی فوکوس واضح برای کاربرانی که با کیبورد کار می‌کنند */
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #818cf8;
+  outline-offset: 3px;
+}
+
+/* اگر کاربر انیمیشن را در سیستمش خاموش کرده، ما هم خاموش کنیم */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    transition: none !important;
+  }
+}

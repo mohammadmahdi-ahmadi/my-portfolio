@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "name": "Mohammad Mahdi Ahmadi",
+    "role": "React Front-End Developer",
+    "intro": "I build simple, fast and responsive websites with React and Tailwind CSS. I am learning every day and I enjoy turning ideas into working web apps.",
+    "bio": "I am a beginner web developer who loves building things for the browser. I started with HTML and CSS, then learned JavaScript, and now I am building apps with React.",
+    "journey": "During this course I built several small projects. They taught me how to split a page into components, manage state and style a responsive layout with Tailwind CSS.",
+    "goals": "I want to get my first job as a junior front-end developer, keep improving my JavaScript and learn more about testing and accessibility.",
+    "email": "mahdiahmadi.20m26@gmail.com",
+    "github": "https://github.com/mohammadmahdi-ahmadi",
+    "linkedin": "https://www.linkedin.com/in/mahdi-ahmadi-35a6803bb/"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Job Tracker",
+      "description": "A job application tracker that helps users manage job applications, track their status, and organize their job search. It shows how I use state, lists, and event handling in React.",
+      "image": "/screenshots/project-1.png",
+      "alt": "job app img",
+      "liveUrl": "https://example.com/"
+    },
+    {
+      "id": 2,
+      "title": "Shopping Basket",
+      "description": "A shopping basket where users can add and remove products and view their total price. It provides a simple and interactive shopping experience.",
+      "image": "/screenshots/project-2.png",
+      "alt": "shopping basket img",
+      "liveUrl": "https://example.com/"
+    },
+    {
+      "id": 3,
+      "title": "Travel Packing",
+      "description": "A travel packing list where users can add items, mark them as packed, and remove items. It helps users organize their belongings and prepare for their trips.",
+      "image": "/screenshots/project-3.png",
+      "alt": "travel packing project img",
+      "liveUrl": "https://example.com/"
+    },
+    {
+      "id": 1792922854687,
+      "title": "sport planner",
+      "description": "ssssssssssssssssss",
+      "image": "/uploads/59bbcbc6e89a85a7.png",
+      "alt": "shopping basket img",
+      "liveUrl": "https://example.com/"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "detail": "Semantic tags, forms, accessible markup"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "detail": "Flexbox, grid, responsive design"
+    },
+    {
+      "id": 3,
+      "name": "Tailwind CSS",
+      "detail": "Utility classes and responsive breakpoints"
+    },
+    {
+      "id": 4,
+      "name": "JavaScript",
+      "detail": "Functions, arrays, objects, fetch, ES6"
+    },
+    {
+      "id": 5,
+      "name": "React",
+      "detail": "Components, props, state, map, conditional rendering"
+    },
+    {
+      "id": 6,
+      "name": "Git & GitHub",
+      "detail": "Commit, push, branches, README files"
+    },
+    {
+      "id": 1792922794069,
+      "name": "C$",
+      "detail": "seeeeeeeeeeeeeee"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1792916561040,
+      "name": "Mahdi Ahmadi",
+      "email": "mahdiahmadi.20m26@gmail.com",
+      "message": "hello what is your name?",
+      "date": "2026-10-25T08:22:41.040Z"
+    },
+    {
+      "id": 1792921912717,
+      "name": "Mahdi Ahmadi",
+      "email": "mahdiahmadi.20m26@gmail.com",
+      "message": "iaisdjflsdjfn",
+      "date": "2026-10-25T09:51:52.717Z"
+    }
+  ]
+}
