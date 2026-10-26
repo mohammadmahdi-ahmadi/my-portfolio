@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useSite } from "../context/SiteContext.jsx";
+import { STATIC_MODE } from "../api.js";
 
 // لینک‌های سریع فوتر
 const quickLinks = [
@@ -99,9 +100,11 @@ function Footer() {
             >
               Back to top
             </button>
-            <Link to="/admin" className="underline hover:text-white">
-              Admin
-            </Link>
+            {!STATIC_MODE && (
+              <Link to="/admin" className="underline hover:text-white">
+                Admin
+              </Link>
+            )}
           </div>
         </div>
       </div>

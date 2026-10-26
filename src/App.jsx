@@ -8,8 +8,8 @@ import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
 import LoginPage from "./admin/LoginPage.jsx";
 import DashboardPage from "./admin/DashboardPage.jsx";
+import { STATIC_MODE } from "./api.js";
 
-// هر Route یک صفحه است. صفحه‌های عمومی داخل Layout (منو + فوتر) نمایش داده می‌شوند
 function App() {
   return (
     <Routes>
@@ -22,8 +22,15 @@ function App() {
         <Route path="*" element={<NotFoundPage />} />
       </Route>
 
-      <Route path="/admin/login" element={<LoginPage />} />
-      <Route path="/admin" element={<DashboardPage />} />
+      {/* در نسخه‌ی آنلاین بدون سرور، صفحه‌های ادمین وجود ندارند */}
+      <Route
+        path="/admin/login"
+        element={STATIC_MODE ? <NotFoundPage /> : <LoginPage />}
+      />
+      <Route
+        path="/admin"
+        element={STATIC_MODE ? <NotFoundPage /> : <DashboardPage />}
+      />
     </Routes>
   );
 }
